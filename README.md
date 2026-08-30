@@ -1,3 +1,3 @@
 # DVUSIPTV Releases
 
-Public APK releases for DVUSIPTV testing.
+Public APK releases for DVUSIPTV.
