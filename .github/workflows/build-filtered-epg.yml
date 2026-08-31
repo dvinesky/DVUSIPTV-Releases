@@ -1,6 +1,10 @@
 name: Build filtered EPG
 
 on:
+  push:
+    paths:
+      - "epg/mappings.csv"
+      - "tools/build_epg.py"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
@@ -22,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg/channels
+          git add epg/mappings.json epg/channels
           git diff --cached --quiet || git commit -m "Update filtered EPG data"
           git push

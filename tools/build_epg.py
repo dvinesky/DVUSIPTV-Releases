@@ -1,4 +1,5 @@
 import gzip
+import csv
 import json
 import re
 import sys
@@ -10,6 +11,7 @@ from xml.etree.ElementTree import iterparse
 SOURCE_URL = "https://iptv-epg.org/files/epg-us.xml.gz"
 ROOT = Path(__file__).resolve().parents[1]
 MAPPINGS = ROOT / "epg" / "mappings.json"
+MAPPINGS_CSV = ROOT / "epg" / "mappings.csv"
 OUTPUT = ROOT / "epg" / "channels"
 XMLTV_TIME = re.compile(r"^(\d{14})(?:\s*([+-]\d{4}|Z))?.*$")
 
@@ -30,7 +32,18 @@ def parse_time(value):
 
 
 def main():
-    mappings = json.loads(MAPPINGS.read_text(encoding="utf-8"))
+    mappings = {
+        row["provider_stream_id"]: {
+            "provider_name": row.get("provider_name", "").strip(),
+            "external_xmltv_id": row["external_xmltv_id"].strip(),
+        }
+        for row in csv.DictReader(MAPPINGS_CSV.open(newline="", encoding="utf-8"))
+        if row.get("provider_stream_id", "").strip() and row.get("external_xmltv_id", "").strip()
+    }
+    MAPPINGS.write_text(
+        json.dumps(dict(sorted(mappings.items(), key=lambda item: int(item[0]))), indent=2) + "\n",
+        encoding="utf-8",
+    )
     wanted = {item["external_xmltv_id"]: stream_id for stream_id, item in mappings.items()}
     now = datetime.now(timezone.utc)
     start_window = int((now - timedelta(hours=12)).timestamp())
