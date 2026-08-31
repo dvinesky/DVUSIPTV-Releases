@@ -3,7 +3,11 @@
 Public APK releases for DVUSIPTV.
 DVUSIPTV Releases
 
-Latest release: v1.2.3
+Latest release: v1.2.4
+
+v1.2.4 notes:
+- Restored West Coast external EPG fallback on low-memory devices.
+- Uses targeted, disk-backed XMLTV parsing to avoid the previous guide crash.
 
 v1.2.3 notes:
 - Prevented external XMLTV parsing on low-memory devices to avoid guide crashes.
