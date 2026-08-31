@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MAPPINGS = ROOT / "epg" / "mappings.json"
 MAPPINGS_CSV = ROOT / "epg" / "mappings.csv"
 OUTPUT = ROOT / "epg" / "channels"
+CHANNEL_INDEX_OUTPUT = ROOT / "epg" / "source-channels"
 XMLTV_TIME = re.compile(r"^(\d{14})(?:\s*([+-]\d{4}|Z))?.*$")
 SOURCES = {
     "us": "https://iptv-epg.org/files/epg-us.xml.gz",
@@ -71,10 +72,21 @@ def main():
         if not wanted:
             continue
         print(f"Downloading {source_name.upper()} EPG source")
+        channel_index = []
         request = Request(source_url, headers={"User-Agent": "DVUSIPTV-EPG-builder/1.0"})
         with urlopen(request, timeout=180) as response:
             with gzip.GzipFile(fileobj=response) as source:
                 for event, element in iterparse(source, events=("end",)):
+                    if element.tag == "channel":
+                        names = [
+                            (child.text or "").strip()
+                            for child in element
+                            if child.tag == "display-name" and (child.text or "").strip()
+                        ]
+                        if names and element.attrib.get("id"):
+                            channel_index.append({"id": element.attrib["id"], "names": names})
+                        element.clear()
+                        continue
                     if element.tag == "programme":
                         external_id = element.attrib.get("channel", "")
                         stream_ids = wanted.get(external_id, [])
@@ -97,6 +109,12 @@ def main():
                                             "stop_timestamp": str(stop),
                                         })
                         element.clear()
+
+        CHANNEL_INDEX_OUTPUT.mkdir(parents=True, exist_ok=True)
+        (CHANNEL_INDEX_OUTPUT / f"{source_name}.json").write_text(
+            json.dumps(channel_index, separators=(",", ":")), encoding="utf-8"
+        )
+        print(f"{source_name}: {len(channel_index)} EPG channels indexed")
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for stream_id, programs in entries.items():
