@@ -14,6 +14,11 @@ MAPPINGS = ROOT / "epg" / "mappings.json"
 MAPPINGS_CSV = ROOT / "epg" / "mappings.csv"
 OUTPUT = ROOT / "epg" / "channels"
 XMLTV_TIME = re.compile(r"^(\d{14})(?:\s*([+-]\d{4}|Z))?.*$")
+SOURCES = {
+    "us": "https://iptv-epg.org/files/epg-us.xml.gz",
+    "ca": "https://iptv-epg.org/files/epg-ca.xml.gz",
+    "gb": "https://iptv-epg.org/files/epg-gb.xml.gz",
+}
 
 
 def parse_time(value):
@@ -36,6 +41,7 @@ def main():
         row["provider_stream_id"]: {
             "provider_name": row.get("provider_name", "").strip(),
             "external_xmltv_id": row["external_xmltv_id"].strip(),
+            "source": row.get("source", "us").strip().lower() or "us",
         }
         for row in csv.DictReader(MAPPINGS_CSV.open(newline="", encoding="utf-8"))
         if row.get("provider_stream_id", "").strip() and row.get("external_xmltv_id", "").strip()
@@ -44,40 +50,45 @@ def main():
         json.dumps(dict(sorted(mappings.items(), key=lambda item: int(item[0]))), indent=2) + "\n",
         encoding="utf-8",
     )
-    wanted = {}
-    for stream_id, item in mappings.items():
-        wanted.setdefault(item["external_xmltv_id"], []).append(stream_id)
     now = datetime.now(timezone.utc)
     start_window = int((now - timedelta(hours=12)).timestamp())
     end_window = int((now + timedelta(days=3)).timestamp())
     entries = {stream_id: [] for stream_id in mappings}
 
-    request = Request(SOURCE_URL, headers={"User-Agent": "DVUSIPTV-EPG-builder/1.0"})
-    with urlopen(request, timeout=180) as response:
-        with gzip.GzipFile(fileobj=response) as source:
-            for event, element in iterparse(source, events=("end",)):
-                if element.tag == "programme":
-                    external_id = element.attrib.get("channel", "")
-                    stream_ids = wanted.get(external_id, [])
-                    if stream_ids:
-                        start = parse_time(element.attrib.get("start"))
-                        stop = parse_time(element.attrib.get("stop"))
-                        if start > 0 and stop > start and stop >= start_window and start <= end_window:
-                            title = element.findtext("title", default="").strip()
-                            description = element.findtext("desc", default="").strip()
-                            if title:
-                                for stream_id in stream_ids:
-                                    entries[stream_id].append({
-                                        "id": f"filtered:{stream_id}:{start}",
-                                        "epg_id": external_id,
-                                        "title": title,
-                                        "description": description,
-                                        "start_timestamp": str(start),
-                                        "stop_timestamp": str(stop),
-                                        "metadataSource": "external_filtered",
-                                        "fetchedAtMillis": int(now.timestamp() * 1000),
-                                    })
-                    element.clear()
+    for source_name, source_url in SOURCES.items():
+        wanted = {}
+        for stream_id, item in mappings.items():
+            if item["source"] == source_name:
+                wanted.setdefault(item["external_xmltv_id"], []).append(stream_id)
+        if not wanted:
+            continue
+        print(f"Downloading {source_name.upper()} EPG source")
+        request = Request(source_url, headers={"User-Agent": "DVUSIPTV-EPG-builder/1.0"})
+        with urlopen(request, timeout=180) as response:
+            with gzip.GzipFile(fileobj=response) as source:
+                for event, element in iterparse(source, events=("end",)):
+                    if element.tag == "programme":
+                        external_id = element.attrib.get("channel", "")
+                        stream_ids = wanted.get(external_id, [])
+                        if stream_ids:
+                            start = parse_time(element.attrib.get("start"))
+                            stop = parse_time(element.attrib.get("stop"))
+                            if start > 0 and stop > start and stop >= start_window and start <= end_window:
+                                title = element.findtext("title", default="").strip()
+                                description = element.findtext("desc", default="").strip()
+                                if title:
+                                    for stream_id in stream_ids:
+                                        entries[stream_id].append({
+                                            "id": f"filtered:{stream_id}:{start}",
+                                            "epg_id": external_id,
+                                            "title": title,
+                                            "description": description,
+                                            "metadataSource": "external_filtered",
+                                            "fetchedAtMillis": int(now.timestamp() * 1000),
+                                            "start_timestamp": str(start),
+                                            "stop_timestamp": str(stop),
+                                        })
+                        element.clear()
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for stream_id, programs in entries.items():
