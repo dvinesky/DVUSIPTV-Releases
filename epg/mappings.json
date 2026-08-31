@@ -149,6 +149,11 @@
     "external_xmltv_id": "AltitudeSports.us",
     "source": "us"
   },
+  "1243273": {
+    "provider_name": "USA SurvivorNetTV",
+    "external_xmltv_id": "SurvivorNet.us",
+    "source": "us"
+  },
   "1243274": {
     "provider_name": "USA SportsGrid",
     "external_xmltv_id": "SportsGrid.us",
@@ -279,6 +284,11 @@
     "external_xmltv_id": "NBCNewsNow.us",
     "source": "us"
   },
+  "2036961": {
+    "provider_name": "USA The Grio TV",
+    "external_xmltv_id": "TheGrio.us",
+    "source": "us"
+  },
   "2115633": {
     "provider_name": "USA Billiard TV",
     "external_xmltv_id": "BilliardTV.us",
@@ -307,6 +317,11 @@
   "2305292": {
     "provider_name": "USA Music Choice Contemporary Christian",
     "external_xmltv_id": "MusicChoiceContemporaryChristian.us",
+    "source": "us"
+  },
+  "2415457": {
+    "provider_name": "USA Shout!",
+    "external_xmltv_id": "ShoutTV.us",
     "source": "us"
   },
   "2422037": {
@@ -659,6 +674,11 @@
     "external_xmltv_id": "ESPN8TheOcho.us",
     "source": "us"
   },
+  "3155537": {
+    "provider_name": "USA Stellar",
+    "external_xmltv_id": "StellarTV.us",
+    "source": "us"
+  },
   "3157120": {
     "provider_name": "USA BlackPix",
     "external_xmltv_id": "BlackPix.us",
@@ -707,6 +727,11 @@
   "3160477": {
     "provider_name": "USA CINEVAULT",
     "external_xmltv_id": "Cinevault.us",
+    "source": "us"
+  },
+  "3160478": {
+    "provider_name": "USA American Crimes",
+    "external_xmltv_id": "AmericanCrimes.pluto",
     "source": "us"
   },
   "3160646": {
@@ -784,6 +809,11 @@
     "external_xmltv_id": "WillowSports.us",
     "source": "us"
   },
+  "3186734": {
+    "provider_name": "The Martha Stewart Channel",
+    "external_xmltv_id": "TheMarthaStewartChannel.pluto",
+    "source": "us"
+  },
   "3195640": {
     "provider_name": "USA Western Bound",
     "external_xmltv_id": "WesternBound.us",
@@ -829,6 +859,11 @@
     "external_xmltv_id": "ShoutMovies.us",
     "source": "us"
   },
+  "3204851": {
+    "provider_name": "USA Kartoon Channel!",
+    "external_xmltv_id": "KartoonChannel!.pluto",
+    "source": "us"
+  },
   "3204853": {
     "provider_name": "USA Black Voices",
     "external_xmltv_id": "BlackVoices.paramount+",
@@ -837,6 +872,11 @@
   "3204855": {
     "provider_name": "USA FilmRise Comedy",
     "external_xmltv_id": "FilmRiseComedy.us",
+    "source": "us"
+  },
+  "3207453": {
+    "provider_name": "USA True History",
+    "external_xmltv_id": "TrueHistoryChannel.us",
     "source": "us"
   },
   "3208194": {
@@ -917,6 +957,11 @@
   "3241490": {
     "provider_name": "USA TV Land Sitcoms",
     "external_xmltv_id": "TVLandSitcoms.us",
+    "source": "us"
+  },
+  "3245661": {
+    "provider_name": "US Racer Network",
+    "external_xmltv_id": "RacerNetwork.us",
     "source": "us"
   },
   "3246799": {
