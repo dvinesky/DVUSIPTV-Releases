@@ -34,6 +34,11 @@
     "external_xmltv_id": "FreeformPacific.us",
     "source": "us"
   },
+  "175860": {
+    "provider_name": "USA GET TV",
+    "external_xmltv_id": "getTVKFTHDT2.us",
+    "source": "us"
+  },
   "175881": {
     "provider_name": "USA InfoWars",
     "external_xmltv_id": "InfoWars.us",
@@ -262,6 +267,11 @@
   "1962850": {
     "provider_name": "USA MAVTV Select",
     "external_xmltv_id": "MAVTVSelect.us",
+    "source": "us"
+  },
+  "1988734": {
+    "provider_name": "USA ION Mystery (KLKN)",
+    "external_xmltv_id": "IonMystery.us",
     "source": "us"
   },
   "2007315": {
