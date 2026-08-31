@@ -3,7 +3,11 @@
 Public APK releases for DVUSIPTV.
 DVUSIPTV Releases
 
-Latest release: v1.2.4
+Latest release: v1.2.5
+
+v1.2.5 notes:
+- Added filtered external EPG lookup by provider stream ID.
+- Added off-device EPG filtering workflow so low-memory devices do not download the full source XMLTV feed.
 
 v1.2.4 notes:
 - Restored West Coast external EPG fallback on low-memory devices.
