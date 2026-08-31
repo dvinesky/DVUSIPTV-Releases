@@ -181,8 +181,8 @@ provider_stream_id,external_xmltv_id,provider_name,source
 2472423,LoneStarClassics.us,Lone Star,us
 3241085,BETClassics.pluto,USA BET Classics,us
 3241086,BETThrowbacks.pluto,USA BET Throwbacks,us
-BETVisionaries.pluto,us
-3079725,USA Big Ten Network,BigTen.us,us
-3204853,USA Black Voices,BlackVoices.paramount+,us
-1620276,USA BYUtv,BYUtv.us,us
-2895487,USA Ebony TV,TVbyLionsEbonygate.us,us
+3241084,BETVisionaries.pluto,USA BET Visionaries,us
+3079725,BigTen.us,USA Big Ten Network,us
+3204853,BlackVoices.paramount+,USA Black Voices,us
+1620276,BYUtv.us,USA BYUtv,us
+2895487,TVbyLionsEbonygate.us,USA Ebony TV,us

@@ -37,15 +37,23 @@ def parse_time(value):
 
 
 def main():
-    mappings = {
-        row["provider_stream_id"]: {
-            "provider_name": row.get("provider_name", "").strip(),
-            "external_xmltv_id": row["external_xmltv_id"].strip(),
-            "source": row.get("source", "us").strip().lower() or "us",
-        }
-        for row in csv.DictReader(MAPPINGS_CSV.open(newline="", encoding="utf-8"))
-        if row.get("provider_stream_id", "").strip() and row.get("external_xmltv_id", "").strip()
-    }
+    mappings = {}
+    with MAPPINGS_CSV.open(newline="", encoding="utf-8") as mapping_file:
+        reader = csv.DictReader(mapping_file)
+        required = {"provider_stream_id", "external_xmltv_id", "provider_name", "source"}
+        if not required.issubset(reader.fieldnames or []):
+            raise ValueError(f"mappings.csv must contain columns: {', '.join(sorted(required))}")
+        for line_number, row in enumerate(reader, start=2):
+            if None in row or any(not (row.get(column) or "").strip() for column in required):
+                raise ValueError(f"Invalid mappings.csv row at line {line_number}: expected 4 populated columns")
+            stream_id = row["provider_stream_id"].strip()
+            if not stream_id.isdigit():
+                raise ValueError(f"Invalid provider_stream_id at line {line_number}: {stream_id}")
+            mappings[stream_id] = {
+                "provider_name": row["provider_name"].strip(),
+                "external_xmltv_id": row["external_xmltv_id"].strip(),
+                "source": row["source"].strip().lower(),
+            }
     MAPPINGS.write_text(
         json.dumps(dict(sorted(mappings.items(), key=lambda item: int(item[0]))), indent=2) + "\n",
         encoding="utf-8",
