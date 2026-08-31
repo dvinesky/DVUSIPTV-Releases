@@ -1,10 +1,618 @@
 {
-  "2692399": {
-    "provider_name": "USA AMC West",
-    "external_xmltv_id": "AMCPacific.us"
+  "175820": {
+    "provider_name": "USA Cozi TV",
+    "external_xmltv_id": "CoziTV.us"
+  },
+  "175821": {
+    "provider_name": "USA COZI TV LHD",
+    "external_xmltv_id": "CoziTV.us"
+  },
+  "175881": {
+    "provider_name": "USA InfoWars",
+    "external_xmltv_id": "InfoWars.us"
+  },
+  "175922": {
+    "provider_name": "USA RAI Italia",
+    "external_xmltv_id": "RaiItalia.us"
+  },
+  "175935": {
+    "provider_name": "USA Tastemade",
+    "external_xmltv_id": "Tastemade.us"
+  },
+  "175944": {
+    "provider_name": "USA The Film Detective",
+    "external_xmltv_id": "TheFilmDetective.us"
+  },
+  "175950": {
+    "provider_name": "USA TMZ",
+    "external_xmltv_id": "TMZ.us"
+  },
+  "176041": {
+    "provider_name": "USA HBO Hits East",
+    "external_xmltv_id": "HBOHits.us"
+  },
+  "176056": {
+    "provider_name": "USA Paramount+ with SHOWTIME (East)",
+    "external_xmltv_id": "Paramount+withShowtime.us"
+  },
+  "176064": {
+    "provider_name": "USA Paramount+ with SHOWTIME (West)",
+    "external_xmltv_id": "Paramount+withShowtimePacific.us"
+  },
+  "176145": {
+    "provider_name": "USA MLB Strike Zone",
+    "external_xmltv_id": "MLBStrikeZone.us"
+  },
+  "220397": {
+    "provider_name": "USA BeIN Sports 4",
+    "external_xmltv_id": "beINSPORTS4.us"
+  },
+  "220454": {
+    "provider_name": "USA WORLD FISHING NETWORK",
+    "external_xmltv_id": "WorldFishingNetwork.us"
+  },
+  "648323": {
+    "provider_name": "USA ABC News Live",
+    "external_xmltv_id": "ABCNewsLive.us"
+  },
+  "648582": {
+    "provider_name": "USA FoxNET WEST",
+    "external_xmltv_id": "FOXNet.us"
+  },
+  "1034684": {
+    "provider_name": "USA WORLD POKER TOUR",
+    "external_xmltv_id": "WorldPokerTour.us"
+  },
+  "1118837": {
+    "provider_name": "USA ALTITUDE SPORTS",
+    "external_xmltv_id": "AltitudeSports.us"
+  },
+  "1243274": {
+    "provider_name": "USA SportsGrid",
+    "external_xmltv_id": "SportsGrid.us"
+  },
+  "1301541": {
+    "provider_name": "USA i24 News",
+    "external_xmltv_id": "i24News.us"
+  },
+  "1383056": {
+    "provider_name": "USA This Old House",
+    "external_xmltv_id": "ThisOldHouse.us"
+  },
+  "1407439": {
+    "provider_name": "USA Electric Now",
+    "external_xmltv_id": "ElectricNow.us"
+  },
+  "1584578": {
+    "provider_name": "USA Bonappetit",
+    "external_xmltv_id": "BonAppetit.us"
+  },
+  "1584581": {
+    "provider_name": "USA Comedy Dynamics",
+    "external_xmltv_id": "ComedyDynamics.us"
+  },
+  "1585595": {
+    "provider_name": "USA Inwonder",
+    "external_xmltv_id": "INWONDER.us"
+  },
+  "1589691": {
+    "provider_name": "USA Revry",
+    "external_xmltv_id": "Revry.us"
+  },
+  "1589692": {
+    "provider_name": "USA Revry News",
+    "external_xmltv_id": "RevryNews.us"
+  },
+  "1636976": {
+    "provider_name": "USA MyTime Movie Network",
+    "external_xmltv_id": "MyTimeMovieNetwork.us"
+  },
+  "1641703": {
+    "provider_name": "USA Gusto",
+    "external_xmltv_id": "Gusto.us"
+  },
+  "1643405": {
+    "provider_name": "USA Billiard TV",
+    "external_xmltv_id": "BilliardTV.us"
+  },
+  "1643411": {
+    "provider_name": "USA PokerGo+",
+    "external_xmltv_id": "PokerGO.us"
+  },
+  "1702165": {
+    "provider_name": "USA Hi-YAH!",
+    "external_xmltv_id": "HI-YAH.us"
+  },
+  "1777690": {
+    "provider_name": "USA CINEVAULT Westerns",
+    "external_xmltv_id": "CINEVAULTWesterns.us"
+  },
+  "1791099": {
+    "provider_name": "USA FOX Soul",
+    "external_xmltv_id": "FOXSOUL.us"
+  },
+  "1843413": {
+    "provider_name": "USA EL Rey Network FHD",
+    "external_xmltv_id": "ElReyNetwork.us"
+  },
+  "1925765": {
+    "provider_name": "USA Bounce XL",
+    "external_xmltv_id": "BounceXL.us"
+  },
+  "1949249": {
+    "provider_name": "USA Republic TV",
+    "external_xmltv_id": "RepublicTV.us"
   },
   "1949251": {
     "provider_name": "USA AMC Thrillers",
     "external_xmltv_id": "AMCThrillers.us"
+  },
+  "1962849": {
+    "provider_name": "USA AXS TV Now",
+    "external_xmltv_id": "AXSTVNOW.us"
+  },
+  "1962850": {
+    "provider_name": "USA MAVTV Select",
+    "external_xmltv_id": "MAVTVSelect.us"
+  },
+  "2007315": {
+    "provider_name": "USA NBC News NOW",
+    "external_xmltv_id": "NBCNewsNow.us"
+  },
+  "2115633": {
+    "provider_name": "USA Billiard TV",
+    "external_xmltv_id": "BilliardTV.us"
+  },
+  "2251773": {
+    "provider_name": "USA Red Bull TV",
+    "external_xmltv_id": "RedbullTV.us"
+  },
+  "2305292": {
+    "provider_name": "USA Music Choice Contemporary Christian",
+    "external_xmltv_id": "MusicChoiceContemporaryChristian.us"
+  },
+  "2422037": {
+    "provider_name": "USA Story Television",
+    "external_xmltv_id": "StoryTelevision.us"
+  },
+  "2496068": {
+    "provider_name": "USA The Design Network",
+    "external_xmltv_id": "TheDesignNetwork.us"
+  },
+  "2496554": {
+    "provider_name": "USA Recipe TV",
+    "external_xmltv_id": "RecipeTV.us"
+  },
+  "2506553": {
+    "provider_name": "USA LiveNOW from FOX",
+    "external_xmltv_id": "LiveNOWfromFOX.us"
+  },
+  "2539035": {
+    "provider_name": "USA NHRA TV",
+    "external_xmltv_id": "NHRATV.us"
+  },
+  "2567237": {
+    "provider_name": "USA FOX Weather",
+    "external_xmltv_id": "FOXWeather.us"
+  },
+  "2568708": {
+    "provider_name": "USA Catholic TV",
+    "external_xmltv_id": "CatholicTV.us"
+  },
+  "2614412": {
+    "provider_name": "USA Maverick Black Cinema",
+    "external_xmltv_id": "MaverickBlackCinema.us"
+  },
+  "2619892": {
+    "provider_name": "USA Circle Country",
+    "external_xmltv_id": "CircleCountry.us"
+  },
+  "2653302": {
+    "provider_name": "USA Game Show Central",
+    "external_xmltv_id": "GameShowCentral.us"
+  },
+  "2667886": {
+    "provider_name": "USA Great American Living",
+    "external_xmltv_id": "GreatAmericanLiving.us"
+  },
+  "2667887": {
+    "provider_name": "USA QVC 3",
+    "external_xmltv_id": "QVC3.us"
+  },
+  "2692399": {
+    "provider_name": "USA AMC West",
+    "external_xmltv_id": "AMCPacific.us"
+  },
+  "2700102": {
+    "provider_name": "USA HBO Hits West",
+    "external_xmltv_id": "HBOHitsPacific.us"
+  },
+  "2730462": {
+    "provider_name": "USA The First",
+    "external_xmltv_id": "TheFirst.us"
+  },
+  "2753576": {
+    "provider_name": "USA SpeedVision",
+    "external_xmltv_id": "SPEEDVISION.us"
+  },
+  "2758167": {
+    "provider_name": "USA Spectrum News 1 Wisconsin",
+    "external_xmltv_id": "SpectrumNews1Wisconsin.us"
+  },
+  "2762696": {
+    "provider_name": "USA Horror Machine",
+    "external_xmltv_id": "HorrorMachine.us"
+  },
+  "2763871": {
+    "provider_name": "USA CBS Sports Golazo Network",
+    "external_xmltv_id": "CBSSportsGolazoNetwork.us"
+  },
+  "2781159": {
+    "provider_name": "USA Altitude Sports 2",
+    "external_xmltv_id": "AltitudeSports2.us"
+  },
+  "2796622": {
+    "provider_name": "USA Racing America",
+    "external_xmltv_id": "RacingAmerica.us"
+  },
+  "2801000": {
+    "provider_name": "USA Spectrum News 1 Worcester",
+    "external_xmltv_id": "SpectrumNews1Worcester.us"
+  },
+  "2814392": {
+    "provider_name": "USA Space City Home Network",
+    "external_xmltv_id": "SpaceCityHomeNetwork.us"
+  },
+  "2815995": {
+    "provider_name": "USA PFL",
+    "external_xmltv_id": "PFL.us"
+  },
+  "2819962": {
+    "provider_name": "USA Yahoo! Finance",
+    "external_xmltv_id": "YahooFinance.us"
+  },
+  "2840857": {
+    "provider_name": "USA FIFA+",
+    "external_xmltv_id": "FIFA+.us"
+  },
+  "2843410": {
+    "provider_name": "USA Haunt TV",
+    "external_xmltv_id": "HauntTV.us"
+  },
+  "2854525": {
+    "provider_name": "USA Newsmax 2",
+    "external_xmltv_id": "Newsmax2.us"
+  },
+  "2856382": {
+    "provider_name": "USA Filmrise Western",
+    "external_xmltv_id": "FilmRiseWestern.us"
+  },
+  "2878696": {
+    "provider_name": "USA Flo Racing",
+    "external_xmltv_id": "FloRacing.us"
+  },
+  "2882215": {
+    "provider_name": "USA SPECTRUM NEWS 1 - DAYTON",
+    "external_xmltv_id": "SpectrumNews1Dayton.us"
+  },
+  "2882216": {
+    "provider_name": "USA SPECTRUM NEWS 1 - DALLAS -FT WORTH",
+    "external_xmltv_id": "SpectrumNews1Dallas-FW.us"
+  },
+  "2882217": {
+    "provider_name": "USA SPECTRUM NEWS 1 - COLUMBUS",
+    "external_xmltv_id": "SpectrumNews1Columbus.us"
+  },
+  "2882218": {
+    "provider_name": "USA SPECTRUM NEWS 1 - CLEVELAND/AKRON",
+    "external_xmltv_id": "SpectrumNews1Cleveland_Akron.us"
+  },
+  "2882219": {
+    "provider_name": "USA SPECTRUM NEWS 1 - CINCINNATI",
+    "external_xmltv_id": "SpectrumNews1Cincinnati.us"
+  },
+  "2884834": {
+    "provider_name": "USA Spectrum OC16",
+    "external_xmltv_id": "SpectrumOC16.us"
+  },
+  "2884837": {
+    "provider_name": "USA Spectrum XCast 2",
+    "external_xmltv_id": "SpectrumXCast2.us"
+  },
+  "2885148": {
+    "provider_name": "USA Music Choice | Easy Listening",
+    "external_xmltv_id": "MusicChoiceEasyListening.us"
+  },
+  "2892631": {
+    "provider_name": "USA ALLBLK Gems",
+    "external_xmltv_id": "ALLBLKGems.us"
+  },
+  "2908944": {
+    "provider_name": "USA Rewind TV",
+    "external_xmltv_id": "RewindTV.us"
+  },
+  "2914455": {
+    "provider_name": "USA PowerNation",
+    "external_xmltv_id": "POWERNATION.us"
+  },
+  "2915488": {
+    "provider_name": "USA Curiosity NOW",
+    "external_xmltv_id": "CuriosityNOW.us"
+  },
+  "2915489": {
+    "provider_name": "USA CW Forever",
+    "external_xmltv_id": "CWForever.us"
+  },
+  "2915490": {
+    "provider_name": "USA CW Gold",
+    "external_xmltv_id": "CWGold.us"
+  },
+  "2915494": {
+    "provider_name": "USA Family Movie Classics (FMC)",
+    "external_xmltv_id": "FMC.us"
+  },
+  "3025716": {
+    "provider_name": "USA BET x Tyler Perry Comedy",
+    "external_xmltv_id": "BETxTylerPerryComedy.us"
+  },
+  "3028395": {
+    "provider_name": "USA CINEVAULT Classics",
+    "external_xmltv_id": "CINEVAULTClassics.us"
+  },
+  "3035973": {
+    "provider_name": "USA Spectrum News 13",
+    "external_xmltv_id": "SpectrumNews13.us"
+  },
+  "3039548": {
+    "provider_name": "USA Nascar Channel",
+    "external_xmltv_id": "NASCARChannel.us"
+  },
+  "3045170": {
+    "provider_name": "USA The Word Network",
+    "external_xmltv_id": "TheWordNetwork.us"
+  },
+  "3050877": {
+    "provider_name": "USA One Championship TV",
+    "external_xmltv_id": "ONEChampionshipTV.us"
+  },
+  "3069444": {
+    "provider_name": "USA BET x Tyler Perry Drama",
+    "external_xmltv_id": "BETxTylerPerryDrama.us"
+  },
+  "3075346": {
+    "provider_name": "USA Silver State Sports & Entertainment Network (SSSEN)",
+    "external_xmltv_id": "SilverStateSportsAndEntertainmentNetwork.us"
+  },
+  "3102514": {
+    "provider_name": "USA Scares by Shudder",
+    "external_xmltv_id": "ScaresbyShudder.us"
+  },
+  "3102515": {
+    "provider_name": "USA ScreamboxTV",
+    "external_xmltv_id": "ScreamboxTV.us"
+  },
+  "3102516": {
+    "provider_name": "USA Miramax Movie Channel",
+    "external_xmltv_id": "MiramaxMovieChannel.us"
+  },
+  "3140818": {
+    "provider_name": "USA 50 Cent Action",
+    "external_xmltv_id": "50CentAction.us"
+  },
+  "3144813": {
+    "provider_name": "USA Game Show Network West",
+    "external_xmltv_id": "GameShowNetworkPacific.us"
+  },
+  "3150685": {
+    "provider_name": "USA ESPN8: The Ocho",
+    "external_xmltv_id": "ESPN8TheOcho.us"
+  },
+  "3157120": {
+    "provider_name": "USA BlackPix",
+    "external_xmltv_id": "BlackPix.us"
+  },
+  "3157539": {
+    "provider_name": "USA HBO Boxing",
+    "external_xmltv_id": "HBOBoxing.us"
+  },
+  "3158499": {
+    "provider_name": "USA DAZN Ringside",
+    "external_xmltv_id": "DAZNRingside.us"
+  },
+  "3158500": {
+    "provider_name": "USA OuterSphere by Lionsgate",
+    "external_xmltv_id": "OuterSphereByLionsgate.us"
+  },
+  "3158739": {
+    "provider_name": "USA FilmRise True Crime",
+    "external_xmltv_id": "FilmRiseTrueCrime.us"
+  },
+  "3158740": {
+    "provider_name": "USA FilmRise Mysteries",
+    "external_xmltv_id": "FilmRiseMysteries.us"
+  },
+  "3158831": {
+    "provider_name": "USA A&E Crime 360",
+    "external_xmltv_id": "AandECrime360.us"
+  },
+  "3158871": {
+    "provider_name": "USA Universal Movies",
+    "external_xmltv_id": "UniversalMovies.us"
+  },
+  "3158994": {
+    "provider_name": "USA National Lampoon",
+    "external_xmltv_id": "NationalLampoon.us"
+  },
+  "3160477": {
+    "provider_name": "USA CINEVAULT",
+    "external_xmltv_id": "Cinevault.us"
+  },
+  "3160646": {
+    "provider_name": "USA MGM Presents",
+    "external_xmltv_id": "MGMPresents.us"
+  },
+  "3160857": {
+    "provider_name": "USA Swerve Combat",
+    "external_xmltv_id": "SwerveCombat.us"
+  },
+  "3160996": {
+    "provider_name": "USA At the Movies",
+    "external_xmltv_id": "AtTheMovies.us"
+  },
+  "3161381": {
+    "provider_name": "USA Next Level Sports",
+    "external_xmltv_id": "NextLevelSports.us"
+  },
+  "3165534": {
+    "provider_name": "USA 365BLK",
+    "external_xmltv_id": "365BLK.us"
+  },
+  "3165754": {
+    "provider_name": "USA Flix West",
+    "external_xmltv_id": "FlixPacific.us"
+  },
+  "3165755": {
+    "provider_name": "USA Flix East",
+    "external_xmltv_id": "FLIX.us"
+  },
+  "3166812": {
+    "provider_name": "USA El Rey Rebel",
+    "external_xmltv_id": "ElReyRebel.us"
+  },
+  "3168172": {
+    "provider_name": "USA Sweet Escapes",
+    "external_xmltv_id": "SweetEscapes.us"
+  },
+  "3168304": {
+    "provider_name": "USA Nosey",
+    "external_xmltv_id": "Nosey.us"
+  },
+  "3168407": {
+    "provider_name": "USA CBS SPORTS HQ",
+    "external_xmltv_id": "CBSSportsHQ.us"
+  },
+  "3168408": {
+    "provider_name": "USA Samuel Goldwyn Channel",
+    "external_xmltv_id": "SamuelGoldwynChannel.us"
+  },
+  "3169048": {
+    "provider_name": "USA Shades of Black",
+    "external_xmltv_id": "ShadesOfBlack.us"
+  },
+  "3169049": {
+    "provider_name": "USA LOL Network",
+    "external_xmltv_id": "LOLNetwork.us"
+  },
+  "3185114": {
+    "provider_name": "USA Willow Sports",
+    "external_xmltv_id": "WillowSports.us"
+  },
+  "3195640": {
+    "provider_name": "USA Western Bound",
+    "external_xmltv_id": "WesternBound.us"
+  },
+  "3195641": {
+    "provider_name": "USA MGM Presents: Action",
+    "external_xmltv_id": "MGMPresentsAction.us"
+  },
+  "3195642": {
+    "provider_name": "USA MGM Presents: Westerns",
+    "external_xmltv_id": "MGMPresentsWesterns.us"
+  },
+  "3195644": {
+    "provider_name": "USA Grit Xtra",
+    "external_xmltv_id": "GritXtra.us"
+  },
+  "3195645": {
+    "provider_name": "USA Midnight Pulp",
+    "external_xmltv_id": "MidnightPulp.us"
+  },
+  "3195647": {
+    "provider_name": "USA Horror by Alter",
+    "external_xmltv_id": "HorrorByAlter.us"
+  },
+  "3195648": {
+    "provider_name": "USA FilmRise Horror",
+    "external_xmltv_id": "FilmRiseHorror.us"
+  },
+  "3195649": {
+    "provider_name": "USA FilmRise Action",
+    "external_xmltv_id": "FilmRiseAction.us"
+  },
+  "3195650": {
+    "provider_name": "USA Shout! Movies",
+    "external_xmltv_id": "ShoutMovies.us"
+  },
+  "3204855": {
+    "provider_name": "USA FilmRise Comedy",
+    "external_xmltv_id": "FilmRiseComedy.us"
+  },
+  "3208194": {
+    "provider_name": "USA Detroit SportsNet",
+    "external_xmltv_id": "DetroitSportsNet.us"
+  },
+  "3208878": {
+    "provider_name": "USA BravesVision",
+    "external_xmltv_id": "BravesVision.us"
+  },
+  "3209421": {
+    "provider_name": "USA NASA+",
+    "external_xmltv_id": "NASA+.us"
+  },
+  "3210401": {
+    "provider_name": "USA Music Choice Classic Country",
+    "external_xmltv_id": "MusicChoiceClassicCountry.us"
+  },
+  "3212707": {
+    "provider_name": "USA Judge Nosey",
+    "external_xmltv_id": "JudgeNosey.us"
+  },
+  "3213377": {
+    "provider_name": "USA Confess by Nosey",
+    "external_xmltv_id": "ConfessByNosey.us"
+  },
+  "3213547": {
+    "provider_name": "USA Music Choice '80s",
+    "external_xmltv_id": "MusicChoice80s.us"
+  },
+  "3214227": {
+    "provider_name": "USA Bowling TV",
+    "external_xmltv_id": "BowlingTV.us"
+  },
+  "3224637": {
+    "provider_name": "USA MLB Big Inning",
+    "external_xmltv_id": "MLBBigInning.us"
+  },
+  "3230165": {
+    "provider_name": "USA Fail Army",
+    "external_xmltv_id": "FailArmy.us"
+  },
+  "3231246": {
+    "provider_name": "USA POP West",
+    "external_xmltv_id": "POPPacific.us"
+  },
+  "3241488": {
+    "provider_name": "USA Binge TV",
+    "external_xmltv_id": "BingeTV.us"
+  },
+  "3241490": {
+    "provider_name": "USA TV Land Sitcoms",
+    "external_xmltv_id": "TVLandSitcoms.us"
+  },
+  "3246799": {
+    "provider_name": "USA MLB Washington Nationals",
+    "external_xmltv_id": "WashingtonNationals.mlb"
+  },
+  "3246800": {
+    "provider_name": "USA MLB Tampa Bay Rays",
+    "external_xmltv_id": "TampaBayRays.mlb"
+  },
+  "3246801": {
+    "provider_name": "USA MLB Miami Marlins",
+    "external_xmltv_id": "MiamiMarlins.mlb"
+  },
+  "3246802": {
+    "provider_name": "USA MLB Cleveland Guardians",
+    "external_xmltv_id": "ClevelandGuardians.mlb"
   }
 }
