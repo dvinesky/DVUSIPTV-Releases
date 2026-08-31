@@ -44,7 +44,9 @@ def main():
         json.dumps(dict(sorted(mappings.items(), key=lambda item: int(item[0]))), indent=2) + "\n",
         encoding="utf-8",
     )
-    wanted = {item["external_xmltv_id"]: stream_id for stream_id, item in mappings.items()}
+    wanted = {}
+    for stream_id, item in mappings.items():
+        wanted.setdefault(item["external_xmltv_id"], []).append(stream_id)
     now = datetime.now(timezone.utc)
     start_window = int((now - timedelta(hours=12)).timestamp())
     end_window = int((now + timedelta(days=3)).timestamp())
@@ -56,24 +58,25 @@ def main():
             for event, element in iterparse(source, events=("end",)):
                 if element.tag == "programme":
                     external_id = element.attrib.get("channel", "")
-                    stream_id = wanted.get(external_id)
-                    if stream_id:
+                    stream_ids = wanted.get(external_id, [])
+                    if stream_ids:
                         start = parse_time(element.attrib.get("start"))
                         stop = parse_time(element.attrib.get("stop"))
                         if start > 0 and stop > start and stop >= start_window and start <= end_window:
                             title = element.findtext("title", default="").strip()
                             description = element.findtext("desc", default="").strip()
                             if title:
-                                entries[stream_id].append({
-                                    "id": f"filtered:{stream_id}:{start}",
-                                    "epg_id": external_id,
-                                    "title": title,
-                                    "description": description,
-                                    "start_timestamp": str(start),
-                                    "stop_timestamp": str(stop),
-                                    "metadataSource": "external_filtered",
-                                    "fetchedAtMillis": int(now.timestamp() * 1000),
-                                })
+                                for stream_id in stream_ids:
+                                    entries[stream_id].append({
+                                        "id": f"filtered:{stream_id}:{start}",
+                                        "epg_id": external_id,
+                                        "title": title,
+                                        "description": description,
+                                        "start_timestamp": str(start),
+                                        "stop_timestamp": str(stop),
+                                        "metadataSource": "external_filtered",
+                                        "fetchedAtMillis": int(now.timestamp() * 1000),
+                                    })
                     element.clear()
 
     OUTPUT.mkdir(parents=True, exist_ok=True)
