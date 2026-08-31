@@ -69,8 +69,6 @@ def main():
         for stream_id, item in mappings.items():
             if item["source"] == source_name:
                 wanted.setdefault(item["external_xmltv_id"], []).append(stream_id)
-        if not wanted:
-            continue
         print(f"Downloading {source_name.upper()} EPG source")
         channel_index = []
         request = Request(source_url, headers={"User-Agent": "DVUSIPTV-EPG-builder/1.0"})
