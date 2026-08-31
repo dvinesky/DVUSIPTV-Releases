@@ -194,6 +194,11 @@
     "external_xmltv_id": "RevryNews.us",
     "source": "us"
   },
+  "1620276": {
+    "provider_name": "USA BYUtv",
+    "external_xmltv_id": "BYUtv.us",
+    "source": "us"
+  },
   "1636976": {
     "provider_name": "USA MyTime Movie Network",
     "external_xmltv_id": "MyTimeMovieNetwork.us",
@@ -524,6 +529,11 @@
     "external_xmltv_id": "ALLBLKGems.us",
     "source": "us"
   },
+  "2895487": {
+    "provider_name": "USA Ebony TV",
+    "external_xmltv_id": "TVbyLionsEbonygate.us",
+    "source": "us"
+  },
   "2900459": {
     "provider_name": "USA TBS East",
     "external_xmltv_id": "TBS.us",
@@ -597,6 +607,11 @@
   "3075346": {
     "provider_name": "USA Silver State Sports & Entertainment Network (SSSEN)",
     "external_xmltv_id": "SilverStateSportsAndEntertainmentNetwork.us",
+    "source": "us"
+  },
+  "3079725": {
+    "provider_name": "USA Big Ten Network",
+    "external_xmltv_id": "BigTen.us",
     "source": "us"
   },
   "3102514": {
@@ -804,6 +819,11 @@
     "external_xmltv_id": "ShoutMovies.us",
     "source": "us"
   },
+  "3204853": {
+    "provider_name": "USA Black Voices",
+    "external_xmltv_id": "BlackVoices.paramount+",
+    "source": "us"
+  },
   "3204855": {
     "provider_name": "USA FilmRise Comedy",
     "external_xmltv_id": "FilmRiseComedy.us",
@@ -862,6 +882,11 @@
   "3231246": {
     "provider_name": "USA POP West",
     "external_xmltv_id": "POPPacific.us",
+    "source": "us"
+  },
+  "3241084": {
+    "provider_name": "USA BET Visionaries",
+    "external_xmltv_id": "BETVisionaries.pluto",
     "source": "us"
   },
   "3241085": {
