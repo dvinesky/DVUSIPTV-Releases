@@ -3,7 +3,11 @@
 Public APK releases for DVUSIPTV.
 DVUSIPTV Releases
 
-Latest release: v1.2.5
+Latest release: v1.2.6
+
+v1.2.6 notes:
+- Checks filtered EPG mappings before the slow provider XMLTV refresh.
+- Keeps mapped external EPG results as valid guide data.
 
 v1.2.5 notes:
 - Added filtered external EPG lookup by provider stream ID.
