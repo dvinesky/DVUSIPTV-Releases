@@ -1,3 +1,12 @@
 # DVUSIPTV Releases
 
 Public APK releases for DVUSIPTV.
+DVUSIPTV Releases
+
+Latest release: v1.2.2
+
+v1.2.2 notes:
+- Improved EPG fallback matching for channels with missing provider EPG IDs.
+- Added support for channel-name variants such as AMC West and regional East/West feeds.
+- Added West Coast schedule offset handling when only an East/base listing is available.
+- Prevented duplicate external guide downloads and removed the oversized feed that could cause device memory pressure.
