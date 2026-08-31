@@ -3,7 +3,11 @@
 Public APK releases for DVUSIPTV.
 DVUSIPTV Releases
 
-Latest release: v1.2.2
+Latest release: v1.2.3
+
+v1.2.3 notes:
+- Prevented external XMLTV parsing on low-memory devices to avoid guide crashes.
+- Low-memory devices continue using provider and API guide data.
 
 v1.2.2 notes:
 - Improved EPG fallback matching for channels with missing provider EPG IDs.
