@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub EPG mapping upload workflow</title>
+  <desc id="desc">Visual instructions for replacing epg mappings.csv on GitHub and committing the change.</desc>
+  <rect width="1200" height="760" fill="#0d1117"/>
+  <text x="60" y="62" fill="#e6edf3" font-family="Arial, sans-serif" font-size="30" font-weight="700">Upload mappings.csv to GitHub</text>
+  <text x="60" y="96" fill="#8b949e" font-family="Arial, sans-serif" font-size="18">Replace the complete file at epg/mappings.csv</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="135" width="520" height="250" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="175" r="24" fill="#238636"/><text x="100" y="183" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">1</text>
+    <text x="140" y="181" fill="#e6edf3" font-size="22" font-weight="700">Open the repository file</text>
+    <rect x="90" y="220" width="450" height="42" rx="6" fill="#0d1117" stroke="#30363d"/><text x="110" y="247" fill="#58a6ff" font-size="16">github.com/dvinesky/</text>
+    <text x="110" y="273" fill="#58a6ff" font-size="16">DVUSIPTV-Releases/blob/main/</text>
+    <text x="110" y="299" fill="#58a6ff" font-size="16">epg/mappings.csv</text>
+    <text x="90" y="350" fill="#8b949e" font-size="16">Select the pencil: Edit this file.</text>
+
+    <rect x="620" y="135" width="520" height="250" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="660" cy="175" r="24" fill="#238636"/><text x="660" y="183" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">2</text>
+    <text x="700" y="181" fill="#e6edf3" font-size="22" font-weight="700">Replace the complete file</text>
+    <rect x="650" y="220" width="450" height="105" rx="6" fill="#0d1117" stroke="#30363d"/>
+    <text x="670" y="250" fill="#8b949e" font-size="16">Click editor, press Ctrl+A,</text>
+    <text x="670" y="277" fill="#8b949e" font-size="16">paste the downloaded mappings.csv,</text>
+    <text x="670" y="304" fill="#f85149" font-size="16" font-weight="700">keep all existing rows</text>
+    <text x="650" y="350" fill="#8b949e" font-size="16">Do not edit mappings.json.</text>
+
+    <rect x="60" y="430" width="520" height="250" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="470" r="24" fill="#238636"/><text x="100" y="478" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">3</text>
+    <text x="140" y="476" fill="#e6edf3" font-size="22" font-weight="700">Commit the change</text>
+    <rect x="90" y="520" width="450" height="42" rx="6" fill="#0d1117" stroke="#30363d"/><text x="110" y="547" fill="#e6edf3" font-size="16">Commit message: Add EPG mappings</text>
+    <rect x="90" y="585" width="250" height="44" rx="6" fill="#238636"/><text x="215" y="613" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">Commit changes</text>
+    <text x="90" y="656" fill="#8b949e" font-size="16">Commit directly to the main branch.</text>
+
+    <rect x="620" y="430" width="520" height="250" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="660" cy="470" r="24" fill="#238636"/><text x="660" y="478" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">4</text>
+    <text x="700" y="476" fill="#e6edf3" font-size="22" font-weight="700">Wait for the automatic build</text>
+    <rect x="650" y="520" width="450" height="44" rx="6" fill="#21262d"/><text x="670" y="548" fill="#e6edf3" font-size="17">Actions  &gt;  Build filtered EPG</text>
+    <text x="650" y="605" fill="#3fb950" font-size="18" font-weight="700">Green check = mappings published</text>
+    <text x="650" y="642" fill="#8b949e" font-size="16">No APK update is required.</text>
+  </g>
+</svg>
