@@ -29,7 +29,7 @@
   <div class="field"><label for="source">EPG source</label><select id="source"><option value="us">US</option><option value="ca">Canada</option><option value="gb">UK</option></select></div>
   <div class="field"><label for="providerName">Selected provider channel</label><input id="providerName" readonly></div>
   <div class="field"><label for="epgId">Selected EPG channel ID</label><input id="epgId" readonly></div>
-  <div class="actions"><button id="addMapping" class="primary" disabled>Add mapping</button><button id="autoMap">Match local call signs</button><button id="removeNonLocal">Remove bulk-added non-local rows</button><button id="restoreRemote">Restore GitHub mappings</button><button id="download">Download mappings.csv</button></div>
+  <div class="actions"><button id="addMapping" class="primary" disabled>Add mapping</button><button id="download">Download mappings.csv</button></div>
 </section>
 <section class="mapping"><h2>Mappings to export <small id="mappingCount"></small></h2><div class="list" style="height:260px"><table><thead><tr><th>Provider stream ID</th><th>Provider name</th><th>EPG ID</th><th>Source</th><th></th></tr></thead><tbody id="mappingRows"></tbody></table></div></section>
 </main>
