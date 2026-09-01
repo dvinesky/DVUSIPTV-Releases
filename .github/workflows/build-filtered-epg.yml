@@ -28,4 +28,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add epg/mappings.json epg/channels epg/source-channels
           git diff --cached --quiet || git commit -m "Update filtered EPG data"
-          git push
+          git push origin HEAD:main
