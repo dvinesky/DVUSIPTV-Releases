@@ -21,6 +21,16 @@
   <div class="actions"><button id="loadUrl" class="primary">Load EPG From URL</button><button id="loadFile">Load Selected EPG File</button></div>
 </section>
 <section class="status" id="status">Load your provider list first.</section>
+<section class="toolbar instructions">
+  <div style="grid-column:1/-1">
+    <h2>Contributor instructions</h2>
+    <p>1. Select a provider channel. 2. Select its matching IPTV-EPG channel. 3. Choose US, Canada, or UK. 4. Select Add mapping. 5. Repeat for each channel. 6. Select Download mappings.csv.</p>
+    <p>Then open <a href="https://github.com/dvinesky/DVUSIPTV-Releases/blob/main/epg/mappings.csv" target="_blank" rel="noreferrer">epg/mappings.csv on GitHub</a>, select the pencil edit button, replace the complete file contents, and commit directly to the main branch. Keep all existing rows.</p>
+    <p>After committing, open the repository Actions tab and wait for Build filtered EPG to finish with a green check. The app will receive the updated guide data without an APK update.</p>
+    <img src="images/epg-mapper-workflow.svg" alt="Visual EPG mapper steps" style="width:100%;max-width:900px;display:block;margin:16px auto">
+    <img src="images/github-upload-workflow.svg" alt="Visual GitHub upload steps" style="width:100%;max-width:900px;display:block;margin:16px auto">
+  </div>
+</section>
 <section class="workspace">
   <div class="pane"><h2>Provider channels <small id="providerCount"></small></h2><input id="providerSearch" placeholder="Search provider channels"><div id="providerRows" class="list"><div class="empty">No provider list loaded.</div></div></div>
   <div class="pane"><h2>IPTV-EPG channels <small id="epgCount"></small></h2><input id="epgSearch" placeholder="Search EPG channels"><div id="epgRows" class="list"><div class="empty">Select a provider channel.</div></div></div>
