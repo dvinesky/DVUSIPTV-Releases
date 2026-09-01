@@ -15,7 +15,11 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.2.6
+Latest release: v1.2.7
+
+v1.2.7 notes:
+- Brightened the guide current-time marker for better visibility.
+- Uses one canonical application package for updates.
 
 v1.2.6 notes:
 - Checks filtered EPG mappings before the slow provider XMLTV refresh.
