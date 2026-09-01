@@ -1,4 +1,19 @@
 {
+  "2881285": {
+    "provider_name": "USA ABC (KAIT) Jonesboro",
+    "external_xmltv_id": "ABCKAIT.us",
+    "source": "us"
+  },
+  "538948": {
+    "provider_name": "USA ABC 13 (WLOX) Gulfport",
+    "external_xmltv_id": "ABCWLOX.us",
+    "source": "us"
+  },
+  "1576226": {
+    "provider_name": "USA ABC 13 (WSET) Lynchburg",
+    "external_xmltv_id": "ABCWSET.us",
+    "source": "us"
+  },
   "175794": {
     "provider_name": "USA Animal Planet West",
     "external_xmltv_id": "AnimalPlanetPacific.us",
