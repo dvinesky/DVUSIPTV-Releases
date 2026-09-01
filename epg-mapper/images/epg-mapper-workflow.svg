@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">EPG mapper workflow</title>
+  <desc id="desc">Six step visual guide for adding an EPG mapping.</desc>
+  <rect width="1200" height="860" fill="#0d1117"/>
+  <text x="60" y="65" fill="#e6edf3" font-family="Arial, sans-serif" font-size="32" font-weight="700">DVUSIPTV EPG Mapper</text>
+  <text x="60" y="100" fill="#8b949e" font-family="Arial, sans-serif" font-size="18">Add a provider channel mapping in six steps</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="140" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="180" r="24" fill="#238636"/><text x="100" y="188" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">1</text>
+    <text x="140" y="185" fill="#e6edf3" font-size="22" font-weight="700">Open the mapper</text>
+    <text x="90" y="230" fill="#8b949e" font-size="17">The provider list, existing mappings,</text>
+    <text x="90" y="257" fill="#8b949e" font-size="17">and EPG channel index load automatically.</text>
+    <rect x="90" y="278" width="300" height="30" rx="5" fill="#21262d"/><text x="105" y="299" fill="#3fb950" font-size="15">Ready to add mappings</text>
+
+    <rect x="620" y="140" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="660" cy="180" r="24" fill="#238636"/><text x="660" y="188" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">2</text>
+    <text x="700" y="185" fill="#e6edf3" font-size="22" font-weight="700">Find the provider channel</text>
+    <rect x="650" y="215" width="430" height="38" rx="6" fill="#0d1117" stroke="#30363d"/><text x="670" y="240" fill="#8b949e" font-size="16">Search provider channels: WJRT</text>
+    <rect x="650" y="268" width="430" height="38" rx="6" fill="#1f6feb33"/><text x="670" y="293" fill="#e6edf3" font-size="16">USA ABC 12 (WJRT) Flint</text>
+
+    <rect x="60" y="370" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="410" r="24" fill="#238636"/><text x="100" y="418" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">3</text>
+    <text x="140" y="415" fill="#e6edf3" font-size="22" font-weight="700">Select the matching EPG channel</text>
+    <rect x="90" y="445" width="430" height="38" rx="6" fill="#0d1117" stroke="#30363d"/><text x="110" y="470" fill="#8b949e" font-size="16">Search IPTV-EPG channels: WJRT</text>
+    <rect x="90" y="498" width="430" height="38" rx="6" fill="#1f6feb33"/><text x="110" y="523" fill="#e6edf3" font-size="16">US - WJRT</text><text x="475" y="523" text-anchor="end" fill="#8b949e" font-size="14">WJRT.us</text>
+
+    <rect x="620" y="370" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="660" cy="410" r="24" fill="#238636"/><text x="660" y="418" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">4</text>
+    <text x="700" y="415" fill="#e6edf3" font-size="22" font-weight="700">Choose the EPG source</text>
+    <rect x="650" y="450" width="430" height="42" rx="6" fill="#0d1117" stroke="#30363d"/><text x="670" y="477" fill="#e6edf3" font-size="17">EPG source: US</text><text x="1055" y="477" fill="#8b949e" font-size="17">v</text>
+    <text x="650" y="530" fill="#8b949e" font-size="16">Use Canada or UK when appropriate.</text>
+
+    <rect x="60" y="600" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="100" cy="640" r="24" fill="#238636"/><text x="100" y="648" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">5</text>
+    <text x="140" y="645" fill="#e6edf3" font-size="22" font-weight="700">Add the mapping</text>
+    <rect x="90" y="680" width="430" height="42" rx="6" fill="#238636"/><text x="305" y="707" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">Add mapping</text>
+    <text x="90" y="758" fill="#8b949e" font-size="16">Repeat steps 2 through 5 for each channel.</text>
+
+    <rect x="620" y="600" width="520" height="190" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="660" cy="640" r="24" fill="#238636"/><text x="660" y="648" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">6</text>
+    <text x="700" y="645" fill="#e6edf3" font-size="22" font-weight="700">Download and upload</text>
+    <rect x="650" y="680" width="430" height="42" rx="6" fill="#238636"/><text x="865" y="707" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">Download mappings.csv</text>
+    <text x="650" y="758" fill="#8b949e" font-size="16">Upload the complete file to epg/mappings.csv.</text>
+  </g>
+</svg>
