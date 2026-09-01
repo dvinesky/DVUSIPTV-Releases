@@ -119,6 +119,16 @@
     "external_xmltv_id": "DisneyChannel.us",
     "source": "us"
   },
+  "181971": {
+    "provider_name": "CA HBO 1",
+    "external_xmltv_id": "HBO1.ca",
+    "source": "ca"
+  },
+  "181972": {
+    "provider_name": "CA HBO 2",
+    "external_xmltv_id": "HBO2.ca",
+    "source": "ca"
+  },
   "220397": {
     "provider_name": "USA BeIN Sports 4",
     "external_xmltv_id": "beINSPORTS4.us",
@@ -504,6 +514,11 @@
     "external_xmltv_id": "FilmRiseWestern.us",
     "source": "us"
   },
+  "2871925": {
+    "provider_name": "USA Family Movie Classics",
+    "external_xmltv_id": "FMC.us",
+    "source": "us"
+  },
   "2878696": {
     "provider_name": "USA Flo Racing",
     "external_xmltv_id": "FloRacing.us",
@@ -629,6 +644,11 @@
     "external_xmltv_id": "BETxTylerPerryDrama.us",
     "source": "us"
   },
+  "3069811": {
+    "provider_name": "USA Movie Favorites by Lifetime",
+    "external_xmltv_id": "LifetimeMovieFavorites.us",
+    "source": "us"
+  },
   "3075346": {
     "provider_name": "USA Silver State Sports & Entertainment Network (SSSEN)",
     "external_xmltv_id": "SilverStateSportsAndEntertainmentNetwork.us",
@@ -714,6 +734,11 @@
     "external_xmltv_id": "AandECrime360.us",
     "source": "us"
   },
+  "3158870": {
+    "provider_name": "USA Universal Action",
+    "external_xmltv_id": "UniversalAction.pluto",
+    "source": "us"
+  },
   "3158871": {
     "provider_name": "USA Universal Movies",
     "external_xmltv_id": "UniversalMovies.us",
@@ -769,6 +794,11 @@
     "external_xmltv_id": "FLIX.us",
     "source": "us"
   },
+  "3166117": {
+    "provider_name": "USA Universal Crime",
+    "external_xmltv_id": "UniversalCrime.pluto",
+    "source": "us"
+  },
   "3166812": {
     "provider_name": "USA El Rey Rebel",
     "external_xmltv_id": "ElReyRebel.us",
@@ -792,6 +822,11 @@
   "3168408": {
     "provider_name": "USA Samuel Goldwyn Channel",
     "external_xmltv_id": "SamuelGoldwynChannel.us",
+    "source": "us"
+  },
+  "3168409": {
+    "provider_name": "USA Samuel Goldwyn Classics CHANNEL",
+    "external_xmltv_id": "SamuelGoldwynClassics.us",
     "source": "us"
   },
   "3169048": {
@@ -827,6 +862,11 @@
   "3195642": {
     "provider_name": "USA MGM Presents: Westerns",
     "external_xmltv_id": "MGMPresentsWesterns.us",
+    "source": "us"
+  },
+  "3195643": {
+    "provider_name": "USA Crimes Cults Killers",
+    "external_xmltv_id": "CrimeCultsKillersByAandE.us",
     "source": "us"
   },
   "3195644": {
@@ -982,6 +1022,11 @@
   "3246802": {
     "provider_name": "USA MLB Cleveland Guardians",
     "external_xmltv_id": "ClevelandGuardians.mlb",
+    "source": "us"
+  },
+  "3247018": {
+    "provider_name": "USA Universal Monsters",
+    "external_xmltv_id": "UniversalMonsters.pluto",
     "source": "us"
   }
 }
