@@ -4339,4 +4339,534 @@
     "external_xmltv_id": "UniversalMonsters.pluto",
     "source": "us"
   }
+  "648271": {
+    "provider_name": "USA CBS 4 (WIVB) Buffalo",
+    "external_xmltv_id": "CBSWIVB.us",
+    "source": "us"
+  },
+  "648276": {
+    "provider_name": "USA ABC 13 (KTRK) Houston",
+    "external_xmltv_id": "ABCKTRK.us",
+    "source": "us"
+  },
+  "648279": {
+    "provider_name": "USA ABC 15 (WPDE) Florence",
+    "external_xmltv_id": "ABCWPDE.us",
+    "source": "us"
+  },
+  "648281": {
+    "provider_name": "USA ABC 23 (KAEF) Eureka",
+    "external_xmltv_id": "ABCKAEF.us",
+    "source": "us"
+  },
+  "648284": {
+    "provider_name": "USA ABC 27 (WTXL) Tallahassee",
+    "external_xmltv_id": "ABCWTXL.us",
+    "source": "us"
+  },
+  "648286": {
+    "provider_name": "USA ABC 38 (WAWV) Terre Haute",
+    "external_xmltv_id": "ABCWAWV.us",
+    "source": "us"
+  },
+  "648291": {
+    "provider_name": "USA ABC 6 (WSYX) Columbus",
+    "external_xmltv_id": "ABCWSYX.us",
+    "source": "us"
+  },
+  "648293": {
+    "provider_name": "USA ABC 7 (WWSB) Sarasota",
+    "external_xmltv_id": "ABCWWSB.us",
+    "source": "us"
+  },
+  "648294": {
+    "provider_name": "USA ABC 9 (WCPO) Cincinnati",
+    "external_xmltv_id": "ABCWCPO.us",
+    "source": "us"
+  },
+  "648376": {
+    "provider_name": "USA CBS 13 (WBTW) Florence",
+    "external_xmltv_id": "CBSWBTW.us",
+    "source": "us"
+  },
+  "648377": {
+    "provider_name": "USA CBS 13 (WMAZ) Georgia",
+    "external_xmltv_id": "CBSWMAZ.us",
+    "source": "us"
+  },
+  "648379": {
+    "provider_name": "USA CBS 19 (KYTX) Tyler",
+    "external_xmltv_id": "CBSKYTX.us",
+    "source": "us"
+  },
+  "648384": {
+    "provider_name": "USA CBS 3 (WSHM) Springfield",
+    "external_xmltv_id": "CBSWSHM.us",
+    "source": "us"
+  },
+  "648387": {
+    "provider_name": "USA CBS 30 (KXJB) Fargo",
+    "external_xmltv_id": "CBSKXJB.us",
+    "source": "us"
+  },
+  "648388": {
+    "provider_name": "USA CBS 42 (KEYE) Austin",
+    "external_xmltv_id": "CBSKEYE.us",
+    "source": "us"
+  },
+  "648391": {
+    "provider_name": "USA CBS 6 (WCTV) Tallahassee",
+    "external_xmltv_id": "CBSWCTV.us",
+    "source": "us"
+  },
+  "648394": {
+    "provider_name": "USA CBS 7 (WHIO) Dayton",
+    "external_xmltv_id": "CBSWHIO.us",
+    "source": "us"
+  },
+  "648396": {
+    "provider_name": "USA CBS 9 (KWTV) Oklahoma City",
+    "external_xmltv_id": "CBSKWTV.us",
+    "source": "us"
+  },
+  "648470": {
+    "provider_name": "USA CBS 69 (WUPA) Atlanta",
+    "external_xmltv_id": "CBSWUPA.us",
+    "source": "us"
+  },
+  "648471": {
+    "provider_name": "USA FOX 10 (WALA) Alabama",
+    "external_xmltv_id": "FOXWALA.us",
+    "source": "us"
+  },
+  "648478": {
+    "provider_name": "USA FOX 25 (KOKH) Oklahoma City",
+    "external_xmltv_id": "FOXKOKH.us",
+    "source": "us"
+  },
+  "648480": {
+    "provider_name": "USA Fox 30 (WGBC) Meridian",
+    "external_xmltv_id": "FOXWGBC.us",
+    "source": "us"
+  },
+  "648484": {
+    "provider_name": "USA FOX 43 (WFXB) Myrtle beach",
+    "external_xmltv_id": "FOXWFXB.us",
+    "source": "us"
+  },
+  "648494": {
+    "provider_name": "USA FOX 7 (KTBC) Austin",
+    "external_xmltv_id": "FOXKTBC.us",
+    "source": "us"
+  },
+  "648610": {
+    "provider_name": "USA NBC 2 (WDTN) Dayton",
+    "external_xmltv_id": "NBCWDTN.us",
+    "source": "us"
+  },
+  "648613": {
+    "provider_name": "USA NBC 3 (WAVE) Louisville",
+    "external_xmltv_id": "NBCWAVE.us",
+    "source": "us"
+  },
+  "648617": {
+    "provider_name": "USA NBC 36 (KXAN) Austin",
+    "external_xmltv_id": "NBCKXAN.us",
+    "source": "us"
+  },
+  "648618": {
+    "provider_name": "USA NBC 4 (KFOR) Oklahoma City",
+    "external_xmltv_id": "NBCKFOR.us",
+    "source": "us"
+  },
+  "648621": {
+    "provider_name": "USA NBC 40 (WNKY) Bowling Green",
+    "external_xmltv_id": "NBCWNKY.us",
+    "source": "us"
+  },
+  "648624": {
+    "provider_name": "USA NBC 45 (WVNC) Watertown",
+    "external_xmltv_id": "NBCWVNC.us",
+    "source": "us"
+  },
+  "648631": {
+    "provider_name": "USA NBC 8 (WLIO) Lima",
+    "external_xmltv_id": "NBCWLIO.us",
+    "source": "us"
+  },
+  "648744": {
+    "provider_name": "USA ABC 3 (KEYT) Santa Barbara",
+    "external_xmltv_id": "ABCKEYT.us",
+    "source": "us"
+  },
+  "648745": {
+    "provider_name": "USA CW 59 (KFRE) Fresno/Visalia",
+    "external_xmltv_id": "CWKFRE.us",
+    "source": "us"
+  },
+  "648746": {
+    "provider_name": "USA FOX 9 (KECY) El Centro",
+    "external_xmltv_id": "FOXKECY.us",
+    "source": "us"
+  },
+  "648783": {
+    "provider_name": "USA PBS 14 (WCMU) Flint/Saginaw/Bay City",
+    "external_xmltv_id": "PBSWCMU.us",
+    "source": "us"
+  },
+  "648790": {
+    "provider_name": "USA PBS 9 (KLRN) SAN ANTONIO",
+    "external_xmltv_id": "PBSKLRN.us",
+    "source": "us"
+  },
+  "648808": {
+    "provider_name": "USA PBS 10 (KLVX) Las Vegas",
+    "external_xmltv_id": "PBSKLVX.us",
+    "source": "us"
+  },
+  "648819": {
+    "provider_name": "USA PBS 9 (KCTS) SEATTLE",
+    "external_xmltv_id": "PBSKCTS.us",
+    "source": "us"
+  },
+  "648829": {
+    "provider_name": "USA PBS 6 (KVIE) Sacramento",
+    "external_xmltv_id": "PBSKVIE.us",
+    "source": "us"
+  },
+  "648836": {
+    "provider_name": "USA PBS 17 (WMHT) Albany",
+    "external_xmltv_id": "PBSWMHT.us",
+    "source": "us"
+  },
+  "648280": {
+    "provider_name": "USA ABC 16 (WNEP) Scranton",
+    "external_xmltv_id": "VEPLUS.us",
+    "source": "us"
+  },
+  "1136525": {
+    "provider_name": "USA ABC 26 (WGNO) New Orleans",
+    "external_xmltv_id": "ABCWGNO.us",
+    "source": "us"
+  },
+  "1162477": {
+    "provider_name": "USA ABC 3 (KESQ) Palm Springs",
+    "external_xmltv_id": "ABCKESQ.us",
+    "source": "us"
+  },
+  "1162471": {
+    "provider_name": "USA ABC 3 (KATC) Lafayette",
+    "external_xmltv_id": "ABCKATC.us",
+    "source": "us"
+  },
+  "1179871": {
+    "provider_name": "USA ABC 23 (WATM) Johnstown",
+    "external_xmltv_id": "ABCWATM.us",
+    "source": "us"
+  },
+  "1185842": {
+    "provider_name": "USA Yakima/Pasco/Richland/Kennewick ABC 42 (KVEW)",
+    "external_xmltv_id": "ABCKVEW.us",
+    "source": "us"
+  },
+  "1189985": {
+    "provider_name": "USA FOX 14 (KARD) West Monroe El Dorado",
+    "external_xmltv_id": "FOXKARD.us",
+    "source": "us"
+  },
+  "1189986": {
+    "provider_name": "USA CBS 8 (KNOE) Monroe El Dorado",
+    "external_xmltv_id": "CBSKNOE.us",
+    "source": "us"
+  },
+  "1229744": {
+    "provider_name": "USA ABC 7 (KLTV) Longview",
+    "external_xmltv_id": "ABCKLTV.us",
+    "source": "us"
+  },
+  "1247970": {
+    "provider_name": "USA ABC 13 (WHAM) Rochester",
+    "external_xmltv_id": "ABCWHAM.us",
+    "source": "us"
+  },
+  "182044": {
+    "provider_name": "USA PBS 54 (WQLN) Erie",
+    "external_xmltv_id": "PBSWQLN.us",
+    "source": "us"
+  },
+  "228485": {
+    "provider_name": "USA CW 23 (WNLO) BUFFALO",
+    "external_xmltv_id": "CWWNLO.us",
+    "source": "us"
+  },
+  "1440524": {
+    "provider_name": "USA ABC 33 (WYTV) Youngstown",
+    "external_xmltv_id": "ABCWYTV.us",
+    "source": "us"
+  },
+  "1620748": {
+    "provider_name": "USA Univision 21 (KFTV) Fresno",
+    "external_xmltv_id": "UnivisionKFTV.us",
+    "source": "us"
+  },
+  "1635336": {
+    "provider_name": "USA ABC 20 (WICS) Springfield",
+    "external_xmltv_id": "ABCWICS.us",
+    "source": "us"
+  },
+  "1643443": {
+    "provider_name": "USA CBS 3 (WTKR) Hampton Roads",
+    "external_xmltv_id": "CBSWTKR.us",
+    "source": "us"
+  },
+  "1699307": {
+    "provider_name": "USA ABC 17 (WTVO) Rockford",
+    "external_xmltv_id": "ABCWTVO.us",
+    "source": "us"
+  },
+  "1699308": {
+    "provider_name": "USA FOX 39 (WQRF) Rockford",
+    "external_xmltv_id": "FOXWQRF.us",
+    "source": "us"
+  },
+  "1730457": {
+    "provider_name": "USA Telemundo 42 (KGLA) New Orleans",
+    "external_xmltv_id": "TelemundoKGLA.us",
+    "source": "us"
+  },
+  "1821734": {
+    "provider_name": "USA abc 7 (KSWO) Wichita Falls",
+    "external_xmltv_id": "ABCKSWO.us",
+    "source": "us"
+  },
+  "1821735": {
+    "provider_name": "USA FOX 18 (KJTL) Wichita Falls",
+    "external_xmltv_id": "FOXKJTL.us",
+    "source": "us"
+  },
+  "1821733": {
+    "provider_name": "USA CBS 6 (KAUZ) Wichita Falls",
+    "external_xmltv_id": "CBSKAUZ.us",
+    "source": "us"
+  },
+  "1651173": {
+    "provider_name": "USA CBS 3 (WRBL) Columbus",
+    "external_xmltv_id": "CBSWRBL.us",
+    "source": "us"
+  },
+  "1864386": {
+    "provider_name": "USA CW 33 (KDAF)",
+    "external_xmltv_id": "CWKDAF.us",
+    "source": "us"
+  },
+  "1864868": {
+    "provider_name": "USA ABC 12 (KTXS) Abilene",
+    "external_xmltv_id": "ABCKTXS.us",
+    "source": "us"
+  },
+  "648616": {
+    "provider_name": "USA NBC 32 (WMBF) Myrtle beach",
+    "external_xmltv_id": "NBCWMBF.us",
+    "source": "us"
+  },
+  "2105614": {
+    "provider_name": "USA CW 54 (WNUV) Baltimore",
+    "external_xmltv_id": "CWWNUV.us",
+    "source": "us"
+  },
+  "2491514": {
+    "provider_name": "USA Univision 19 (KUVS) Sacramento",
+    "external_xmltv_id": "UnivisionKUVS.us",
+    "source": "us"
+  },
+  "2537423": {
+    "provider_name": "USA CBS 7 (KOAM) Joplin",
+    "external_xmltv_id": "CBSKOAM.us",
+    "source": "us"
+  },
+  "2568703": {
+    "provider_name": "USA CW 39 (KIAH) Houston",
+    "external_xmltv_id": "CWKIAH.us",
+    "source": "us"
+  },
+  "2615630": {
+    "provider_name": "USA CBS 7 (KOSA) Odessa/Midland",
+    "external_xmltv_id": "CBSKOSA.us",
+    "source": "us"
+  },
+  "2639056": {
+    "provider_name": "USA CBS 12 (WBNG) Binghamton",
+    "external_xmltv_id": "CBSWBNG.us",
+    "source": "us"
+  },
+  "2655104": {
+    "provider_name": "USA CW 2 (KWGN) Denver",
+    "external_xmltv_id": "CWKWGN.us",
+    "source": "us"
+  },
+  "2655324": {
+    "provider_name": "USA CBS 2 (KPSP) Palm Springs",
+    "external_xmltv_id": "CBSKPSPCD2.us",
+    "source": "us"
+  },
+  "2655325": {
+    "provider_name": "USA FOX 33 (KDFX) Palm Springs",
+    "external_xmltv_id": "FOXKDFXCD2.us",
+    "source": "us"
+  },
+  "2693816": {
+    "provider_name": "USA NBC 3 (KFDX) Wichita Falls",
+    "external_xmltv_id": "NBCKFDX.us",
+    "source": "us"
+  },
+  "2701831": {
+    "provider_name": "USA CW 62 (WYCW)",
+    "external_xmltv_id": "CWWYCW.us",
+    "source": "us"
+  },
+  "2730940": {
+    "provider_name": "USA CBS 4 (KXLF) Butte-Bozeman",
+    "external_xmltv_id": "CBSKXLF.us",
+    "source": "us"
+  },
+  "2756490": {
+    "provider_name": "USA CW 38 (WNOL) New Orleans",
+    "external_xmltv_id": "CWWNOL.us",
+    "source": "us"
+  },
+  "2757783": {
+    "provider_name": "USA ABC 7 (WBBJ) Jackson",
+    "external_xmltv_id": "ABCWBBJ.us",
+    "source": "us"
+  },
+  "2766605": {
+    "provider_name": "USA CW 50 (WDCW) Washington DC",
+    "external_xmltv_id": "CWWDCW.us",
+    "source": "us"
+  },
+  "2798197": {
+    "provider_name": "USA CBS 12 (KXII) Sherman",
+    "external_xmltv_id": "CBSKXII.us",
+    "source": "us"
+  },
+  "2802260": {
+    "provider_name": "USA CW 30 (WQCW) Portsmouth",
+    "external_xmltv_id": "CWWQCW.us",
+    "source": "us"
+  },
+  "2819522": {
+    "provider_name": "US ABC 3 (KOTA) Rapid City",
+    "external_xmltv_id": "ABCKOTA.us",
+    "source": "us"
+  },
+  "2837974": {
+    "provider_name": "USA PBS 28 (KCET) Los Angeles",
+    "external_xmltv_id": "PBSKCET.us",
+    "source": "us"
+  },
+  "2837975": {
+    "provider_name": "USA PBS 58 (KLCS) Los Angeles",
+    "external_xmltv_id": "PBSKLCS.us",
+    "source": "us"
+  },
+  "2841901": {
+    "provider_name": "USA CBS 3 (KIMT) Rochester",
+    "external_xmltv_id": "CBSKIMT.us",
+    "source": "us"
+  },
+  "2847710": {
+    "provider_name": "USA CBS 5 (KFSM) Fort Smith",
+    "external_xmltv_id": "CBSKFSM.us",
+    "source": "us"
+  },
+  "2849511": {
+    "provider_name": "US CW 25 (WCWW) South Bend/Elkhart Area",
+    "external_xmltv_id": "CWWCWW.us",
+    "source": "us"
+  },
+  "2853534": {
+    "provider_name": "USA ABC 7 (KRCR) Chico/Redding",
+    "external_xmltv_id": "ABCKRCR.us",
+    "source": "us"
+  },
+  "2855276": {
+    "provider_name": "USA CW 20 (WCCT) Waterbury",
+    "external_xmltv_id": "CWWCCT.us",
+    "source": "us"
+  },
+  "2881287": {
+    "provider_name": "USA FOX 39 (KJNB) Jonesboro",
+    "external_xmltv_id": "FOXKJNB.us",
+    "source": "us"
+  },
+  "2881415": {
+    "provider_name": "US CW 13 (WHAM) Rochester (H)",
+    "external_xmltv_id": "CWWHAMDT2.us",
+    "source": "us"
+  },
+  "2881858": {
+    "provider_name": "USA CW 30 (WLMT) Memphis",
+    "external_xmltv_id": "CWWLMT.us",
+    "source": "us"
+  },
+  "2891441": {
+    "provider_name": "USA NBC 3 (KSNW) Wichita",
+    "external_xmltv_id": "NBCKSNW.us",
+    "source": "us"
+  },
+  "2899277": {
+    "provider_name": "USA FOX 39 (KFXO) Bend",
+    "external_xmltv_id": "FOXKFXO.us",
+    "source": "us"
+  },
+  "3009419": {
+    "provider_name": "USA ABC 7 (KHQA) Quincy",
+    "external_xmltv_id": "ABCKHQADT2.us",
+    "source": "us"
+  },
+  "3014379": {
+    "provider_name": "USA ABC 13 (WHSV) Harrisonburg",
+    "external_xmltv_id": "ABCWHSV.us",
+    "source": "us"
+  },
+  "3027729": {
+    "provider_name": "US CW 4 (KRON) San Francisco",
+    "external_xmltv_id": "CWKRON.us",
+    "source": "us"
+  },
+  "3035643": {
+    "provider_name": "USA CBS 24 (WMDN) Meridian",
+    "external_xmltv_id": "CBSWMDN.us",
+    "source": "us"
+  },
+  "1770369": {
+    "provider_name": "USA FOX 31 (WFXL)  Albany",
+    "external_xmltv_id": "FOXWFXL.us",
+    "source": "us"
+  },
+  "3068263": {
+    "provider_name": "USA CW 15 (WHDF) Florence",
+    "external_xmltv_id": "CWWHDF.us",
+    "source": "us"
+  },
+  "2848055": {
+    "provider_name": "USA CBS 7 (WWNY) Watertown",
+    "external_xmltv_id": "CBSWWNY.us",
+    "source": "us"
+  },
+  "3127217": {
+    "provider_name": "USA ABC 18 (WSVN) Miami",
+    "external_xmltv_id": "ABCWSVNDT2.us",
+    "source": "us"
+  },
+  "3144812": {
+    "provider_name": "USA CW 23 (WFLI) Chattanooga",
+    "external_xmltv_id": "CWWFLI.us",
+    "source": "us"
+  },
+  "3247016": {
+    "provider_name": "US CBS 7 (WTRF) Wheeling",
+    "external_xmltv_id": "CBSWTRF.us",
+    "source": "us"
+  }
 }
