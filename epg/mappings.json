@@ -44,6 +44,11 @@
     "external_xmltv_id": "InfoWars.us",
     "source": "us"
   },
+  "175894": {
+    "provider_name": "USA MAV TV",
+    "external_xmltv_id": "MAVTVSelect.us",
+    "source": "us"
+  },
   "175922": {
     "provider_name": "USA RAI Italia",
     "external_xmltv_id": "RaiItalia.us",
@@ -259,6 +264,11 @@
     "external_xmltv_id": "ElReyNetwork.us",
     "source": "us"
   },
+  "1891092": {
+    "provider_name": "USA PBS Plus (KOPB)",
+    "external_xmltv_id": "PBSKOPB.us",
+    "source": "us"
+  },
   "1925765": {
     "provider_name": "USA Bounce XL",
     "external_xmltv_id": "BounceXL.us",
@@ -357,6 +367,11 @@
   "2506553": {
     "provider_name": "USA LiveNOW from FOX",
     "external_xmltv_id": "LiveNOWfromFOX.us",
+    "source": "us"
+  },
+  "2514678": {
+    "provider_name": "USA theGrio",
+    "external_xmltv_id": "theGrioKTXHDT3.us",
     "source": "us"
   },
   "2539035": {
@@ -464,6 +479,11 @@
     "external_xmltv_id": "TBSPacific.us",
     "source": "us"
   },
+  "2790562": {
+    "provider_name": "USA Science Channel",
+    "external_xmltv_id": "ScienceChannel.us",
+    "source": "us"
+  },
   "2796622": {
     "provider_name": "USA Racing America",
     "external_xmltv_id": "RacingAmerica.us",
@@ -502,6 +522,11 @@
   "2843518": {
     "provider_name": "USA CMT West",
     "external_xmltv_id": "CMTPacific.us",
+    "source": "us"
+  },
+  "2843520": {
+    "provider_name": "USA Paramount West",
+    "external_xmltv_id": "ParamountNetworkPacific.us",
     "source": "us"
   },
   "2854525": {
@@ -577,6 +602,21 @@
   "2900459": {
     "provider_name": "USA TBS East",
     "external_xmltv_id": "TBS.us",
+    "source": "us"
+  },
+  "2903644": {
+    "provider_name": "US MeTV 33 (WJLP) New York",
+    "external_xmltv_id": "METVWJLP.us",
+    "source": "us"
+  },
+  "2904676": {
+    "provider_name": "USA HerSphere by Lionsgate",
+    "external_xmltv_id": "HerSphere.us",
+    "source": "us"
+  },
+  "2908173": {
+    "provider_name": "USA KJZZ 14 (KJZZDT) Salt Lake City",
+    "external_xmltv_id": "14KJZZ.us",
     "source": "us"
   },
   "2908944": {
@@ -679,6 +719,11 @@
     "external_xmltv_id": "TCMPacific.us",
     "source": "us"
   },
+  "3127299": {
+    "provider_name": "Are We There Yet?",
+    "external_xmltv_id": "AreWeThereYet?.us",
+    "source": "us"
+  },
   "3140818": {
     "provider_name": "USA 50 Cent Action",
     "external_xmltv_id": "50CentAction.us",
@@ -692,6 +737,11 @@
   "3150685": {
     "provider_name": "USA ESPN8: The Ocho",
     "external_xmltv_id": "ESPN8TheOcho.us",
+    "source": "us"
+  },
+  "3151917": {
+    "provider_name": "USA PureFlix",
+    "external_xmltv_id": "PureFlixTV.us",
     "source": "us"
   },
   "3155537": {
@@ -717,6 +767,11 @@
   "3158500": {
     "provider_name": "USA OuterSphere by Lionsgate",
     "external_xmltv_id": "OuterSphereByLionsgate.us",
+    "source": "us"
+  },
+  "3158501": {
+    "provider_name": "USA MovieSphere by Lionsgate",
+    "external_xmltv_id": "MovieSpherebyLionsgate.peacocktv",
     "source": "us"
   },
   "3158739": {
@@ -827,6 +882,11 @@
   "3168409": {
     "provider_name": "USA Samuel Goldwyn Classics CHANNEL",
     "external_xmltv_id": "SamuelGoldwynClassics.us",
+    "source": "us"
+  },
+  "3168469": {
+    "provider_name": "USA Living with Evil",
+    "external_xmltv_id": "LivingWithEvil.pluto",
     "source": "us"
   },
   "3169048": {
@@ -974,6 +1034,21 @@
     "external_xmltv_id": "MLBBigInning.us",
     "source": "us"
   },
+  "3225459": {
+    "provider_name": "USA Ultimate Builds",
+    "external_xmltv_id": "UltimateBuilds.pluto",
+    "source": "us"
+  },
+  "3225460": {
+    "provider_name": "USA 80s Sitcoms",
+    "external_xmltv_id": "80sSitcoms.paramount+",
+    "source": "us"
+  },
+  "3225461": {
+    "provider_name": "USA 90s Sitcoms",
+    "external_xmltv_id": "90sSitcoms.paramount+",
+    "source": "us"
+  },
   "3230165": {
     "provider_name": "USA Fail Army",
     "external_xmltv_id": "FailArmy.us",
@@ -999,9 +1074,19 @@
     "external_xmltv_id": "BETThrowbacks.pluto",
     "source": "us"
   },
+  "3241087": {
+    "provider_name": "USA BET Visionaries",
+    "external_xmltv_id": "BETVisionaries.pluto",
+    "source": "us"
+  },
   "3241488": {
     "provider_name": "USA Binge TV",
     "external_xmltv_id": "BingeTV.us",
+    "source": "us"
+  },
+  "3241489": {
+    "provider_name": "USA TV Land Drama",
+    "external_xmltv_id": "TVLandDrama.pluto",
     "source": "us"
   },
   "3241490": {
