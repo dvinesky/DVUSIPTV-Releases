@@ -15,7 +15,11 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.2.8
+Latest release: v1.2.9
+
+v1.2.9 notes:
+- Updated the Android TV banner to the DVUSIPTV Premium logo.
+- Updated the sign-in screen to use the DVUSIPTV Premium logo.
 
 v1.2.8 notes:
 - Preserves Favorites during app updates and same-account provider host changes.
