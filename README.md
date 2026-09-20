@@ -15,10 +15,14 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.0
+Latest release: v1.4.1
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
+
+v1.4.1 notes:
+- Improves live-TV buffering on TV networks with a larger playback buffer.
+- Improves Fire TV compatibility by targeting API 33 while retaining current compile SDK support.
 
 v1.4.0 notes:
 - Adds the DVR service for recording and scheduled recordings, with device storage/USB capability checks.
