@@ -20,6 +20,9 @@ Latest release: v1.4.7
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
 
+Detailed user guide:
+[USER_GUIDE.md](USER_GUIDE.md)
+
 v1.4.7 notes:
 - Adds optional Guide Auto-Preview control so the previous Live TV channel does not automatically start previewing when the Guide opens.
 - Adds optional one-select Guide playback so selecting a channel or program can open it directly in fullscreen instead of previewing first.
