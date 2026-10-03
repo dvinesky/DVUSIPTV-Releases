@@ -282,8 +282,6 @@ Diagnostics can show:
 - Playback failure history.
 - Provider health checks for Live TV, Movies, and Series APIs.
 
-The Provider Inspector is intentionally hidden. From Diagnostics, select the Provider Health title eight times, then enter the private inspector PIN. It can show account information, provider categories, streams, series, and an XMLTV sample. This screen is for the owner or administrator and should not be exposed to normal users.
-
 ## Refresh Buttons
 
 - Home Refresh: refreshes Home-related content.
