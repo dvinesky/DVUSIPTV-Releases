@@ -15,13 +15,16 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.8
+Latest release: v1.4.9
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
 
 Detailed user guide:
 [USER_GUIDE.md](USER_GUIDE.md)
+
+v1.4.9 notes:
+- Updated the Android target SDK to API 34 for improved compatibility with current Android TV and Fire TV devices and reduced outdated-target installation warnings.
 
 v1.4.8 notes:
 - Added optional DVUS Cloud account support for cross-device profiles, Favorites, Favorite Groups, Continue Watching/resume, watch history, eligible profile settings, and Multiview presets.
