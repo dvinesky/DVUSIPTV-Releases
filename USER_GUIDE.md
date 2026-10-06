@@ -201,6 +201,21 @@ Live TV playback includes a Live Menu with:
 - Select Remove to delete a profile when allowed.
 - The normal provider login remains separate from app profiles.
 
+### Optional DVUS Cloud Account
+
+DVUS Cloud is optional. The app continues to work with local storage when no cloud account is used or the cloud service is unavailable.
+
+- Open Settings and choose the DVUS Cloud Account section.
+- Create a DVUS Cloud account or sign in to an existing account.
+- Use the same DVUS Cloud account on another device to synchronize supported data.
+- Cloud synchronization includes profile data, Favorites and Favorite Groups, Continue Watching/resume positions, watch history, eligible profile settings, and Multiview presets.
+- Local changes are saved immediately and synchronize in the background when connectivity is available.
+- Provider usernames and passwords remain stored locally on the device and are never uploaded to DVUS Cloud.
+- A device can be viewed, renamed, signed out, or revoked from the customer portal at `https://account.dvusiptv.com`.
+- If a device is offline or the cloud service is unavailable, local playback, Favorites, profiles, and resume behavior continue to work.
+- When signing in on a TV, use the displayed pairing code or the portal pairing process when available.
+- Cloud data is profile-specific. Switching profiles changes the associated Favorites, history, resume data, and profile settings.
+
 ## Settings
 
 ### Easy Start
