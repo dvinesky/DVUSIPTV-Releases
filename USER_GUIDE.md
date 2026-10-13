@@ -244,6 +244,8 @@ DVUS Cloud is optional. The app continues to work with local storage when no clo
 - Reorder Live TV/Guide categories.
 - Manage Favorite Groups.
 
+The All Channels category remains fixed. Other available Live TV and Guide categories can be reordered from the category action menu using the D-pad. Favorites and the NFL category follow the app's fixed category rules where applicable.
+
 ### Home Favorites
 
 Choose which Favorite Group appears as a Home screen row.
@@ -263,6 +265,19 @@ Choose which Favorite Group appears as a Home screen row.
 - Check for app updates.
 - Download an available update.
 - View the installed and latest version.
+
+### Service Status and Diagnostics
+
+- Open Settings > Service Status & Diagnostic Report.
+- Known service notices appear at the top when support has posted an outage or warning.
+- Provider Health checks the Live TV, Movies, and Series provider APIs.
+- Send Diagnostic Report sends app version, device model, Android version, free storage, API status, EPG cache age, current player details, provider-health results, network download speed, network latency, and recent playback failures.
+- Provider usernames, passwords, stream URLs, and other provider credentials are excluded from reports.
+- Stream Failure History lists the time, title, content type, output type, content ID when available, and playback error.
+- Use Clear Failure History to remove the locally stored failure list.
+- The Diagnostics page supports D-pad scrolling from the first section through Stream Failure History. On touch devices, swipe vertically through the page.
+
+The administrator portal is separate from the customer account portal and requires the administrator username and password created on the server. It is used to review submitted diagnostic reports and create or deactivate known service notices.
 
 ### Parental Controls
 
@@ -296,6 +311,14 @@ Diagnostics can show:
 - Buffer state, codec, resolution, bitrate, and dropped frames.
 - Playback failure history.
 - Provider health checks for Live TV, Movies, and Series APIs.
+
+### v1.4.13 changes
+
+- Rebuilt the Diagnostics page for dependable Android TV D-pad navigation and full-page scrolling.
+- Added detailed diagnostic report data, including network measurements and provider-health results.
+- Added content IDs to playback failure history.
+- Added known service notices and administrator report/notice management.
+- Improved Live TV and Guide category ordering and filtering behavior.
 
 ## Refresh Buttons
 

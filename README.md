@@ -15,13 +15,21 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.12
+Latest release: v1.4.13
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
 
 Detailed user guide:
 [USER_GUIDE.md](USER_GUIDE.md)
+
+v1.4.13 notes:
+- Adds a rebuilt Android TV Diagnostics page with reliable D-pad scrolling, initial focus, and access to every diagnostics section.
+- Diagnostic reports now include device, connection, provider-health, player, network speed/latency, and recent playback-failure details while excluding provider credentials and stream URLs.
+- Playback failure history now records the related movie, series, episode, or Live TV content ID when available.
+- Adds provider-health checks for Live TV, Movies, and Series APIs.
+- Adds in-app known service notices and a protected administrator portal for reviewing diagnostic reports and managing notices.
+- Improves Live TV and Guide category ordering, filtering, and category handling.
 
 v1.4.12 notes:
 - Restores compatibility with provider HTTP login endpoints while retaining scoped cloud HTTPS certificate support.
