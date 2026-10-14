@@ -312,6 +312,11 @@ Diagnostics can show:
 - Playback failure history.
 - Provider health checks for Live TV, Movies, and Series APIs.
 
+### v1.4.13.1 changes
+
+- Fixes cloud Favorites import between devices by correctly mapping the default Favorites group.
+- Refreshes cloud data after migration so Favorites from another signed-in device appear immediately.
+
 ### v1.4.13 changes
 
 - Rebuilt the Diagnostics page for dependable Android TV D-pad navigation and full-page scrolling.

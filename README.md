@@ -15,10 +15,14 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.13
+Latest release: v1.4.13.1
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
+
+v1.4.13.1 notes:
+- Fixes cloud Favorites import by mapping the cloud default Favorites group to the app's local default group.
+- Refreshes cloud state after migration so Favorites from another signed-in device are applied immediately.
 
 Detailed user guide:
 [USER_GUIDE.md](USER_GUIDE.md)
