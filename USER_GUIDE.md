@@ -153,6 +153,9 @@ The physical microphone button on a remote is controlled by Android TV or Google
 
 Tap the video or press OK to show the player controls.
 
+- On a D-pad, left/right seeks 30 seconds when the controls are hidden. When the controls are visible, left/right moves between available options.
+- Press Select/OK to show the controls and select the focused option. For movies and series, Play/Pause is the first option.
+- Up/Down changes Live TV channels when the player controls are not open.
 - Play or Pause.
 - Rewind 30 seconds for movies, series, and catch-up playback.
 - Forward 30 seconds for movies, series, and catch-up playback.
@@ -243,6 +246,7 @@ DVUS Cloud is optional. The app continues to work with local storage when no clo
 - Hide or show series categories.
 - Reorder Live TV/Guide categories.
 - Manage Favorite Groups.
+- NFL game categories appear directly below NFL. Select NFL again to collapse or expand its game categories.
 
 The All Channels category remains fixed. Other available Live TV and Guide categories can be reordered from the category action menu using the D-pad. Favorites and the NFL category follow the app's fixed category rules where applicable.
 
@@ -311,6 +315,16 @@ Diagnostics can show:
 - Buffer state, codec, resolution, bitrate, and dropped frames.
 - Playback failure history.
 - Provider health checks for Live TV, Movies, and Series APIs.
+
+### v1.4.14 changes
+
+- Media player left/right behavior depends on the overlay state: with the overlay hidden, left/right seeks 30 seconds; with the overlay visible, left/right moves focus between controls.
+- Press Select to show player controls. For movies and series, Pause/Play is the first focused option.
+- Volume Boost now avoids repeatedly recreating the same Android audio effect, preventing progressive volume reduction.
+- Live TV and Guide reuse shared cached XMLTV and filtered EPG data when it is still current.
+- NFL game subcategories appear directly below NFL. Select NFL again to collapse or expand its game subcategories.
+- Cloud Favorite Group import ignores numeric and generic placeholder names and preserves valid local names.
+- Back from Multiview search returns to Multiview when no result was selected.
 
 ### v1.4.13.1 changes
 

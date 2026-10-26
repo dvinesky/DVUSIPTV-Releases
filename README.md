@@ -15,10 +15,19 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.13.1
+Latest release: v1.4.14
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
+
+v1.4.14 notes:
+- Refreshes the media player D-pad behavior: left/right seeks while the overlay is hidden and navigates overlay options while it is visible.
+- Select opens player controls, with Pause/Play first for movies and series.
+- Prevents repeated Android audio-effect creation from progressively lowering Volume Boost playback volume.
+- Shares cached XMLTV and filtered EPG results between Live TV and Guide so Guide does not need to reload already cached channel data.
+- Places NFL game subcategories directly below NFL and lets users expand or collapse them by selecting NFL again.
+- Protects cloud Favorite Group names from numeric and placeholder values while preserving valid local names.
+- Keeps Multiview search Back navigation inside Multiview when no search result was selected.
 
 v1.4.13.1 notes:
 - Fixes cloud Favorites import by mapping the cloud default Favorites group to the app's local default group.
