@@ -21,6 +21,10 @@ Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
 
 v1.4.15 notes:
+- SQLite-backed EPG & Stream caching: instantaneous channel guide lookups using batched Room queries (`xmltvDao.getProgramsForChannels`) for zero-lag display.
+- Isolated Live TV and Sports category persistence: opening Live TV always restores Live TV categories/default view, and opening Sports always restores Sports categories/default view without cross-contamination.
+- Channel cards in Live TV & Sports display live program titles, time ranges, and upcoming broadcasts directly on cards.
+- Dynamic VOD backdrops & movie/series ratings display.
 - Fixes cloud synchronization across devices for Recently Watched, Continue Watching, Favorites, Favorite Groups, Multiview Presets, and Settings:
   - Adds debounce and concurrency mutex locks to prevent hitting cloud rate limits on app startup.
   - Fixes cloud outbox draining and handles non-existent or conflicting mutations gracefully.
