@@ -15,10 +15,20 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.14
+Latest release: v1.4.15
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
+
+v1.4.15 notes:
+- Fixes cloud synchronization across devices for Recently Watched, Continue Watching, Favorites, Favorite Groups, Multiview Presets, and Settings:
+  - Adds debounce and concurrency mutex locks to prevent hitting cloud rate limits on app startup.
+  - Fixes cloud outbox draining and handles non-existent or conflicting mutations gracefully.
+  - Automatically syncs and refreshes cloud state upon entering Home and foregrounding the app.
+- Sports enhancements:
+  - Adds dedicated Sports hero card on the main Home screen with custom artwork.
+  - Sports categories sort alphabetically by default, including virtual NFL (with expandable game subcategories) and NASCAR groupings.
+  - Optimizes sports channel loading to prevent blocking on XMLTV guide parsing.
 
 v1.4.14 notes:
 - Refreshes the media player D-pad behavior: left/right seeks while the overlay is hidden and navigates overlay options while it is visible.

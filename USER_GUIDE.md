@@ -26,6 +26,7 @@ This guide lists the main screens, controls, and actions available in DVUSIPTV. 
 - Movies: opens movies.
 - Series: opens TV series.
 - Favorites: opens saved favorites and favorite groups.
+- Sports: opens live sports channels and sports categories (including NFL and NASCAR).
 - Search: searches Live TV, movies, and series.
 - Account/profile button: switches between app profiles.
 - Settings: opens app settings.
