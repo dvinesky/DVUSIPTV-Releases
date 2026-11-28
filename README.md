@@ -15,10 +15,23 @@ provider_stream_id,external_xmltv_id,provider_name,source
 
 The supported sources are `us`, `ca`, and `gb`, corresponding to `epg-us.xml.gz`, `epg-ca.xml.gz`, and `epg-gb.xml.gz`. The app reads the generated `epg/mappings.json` at runtime, so mapping changes do not require an APK rebuild or version update. A push to `epg/mappings.csv` automatically rebuilds the small per-channel EPG files.
 
-Latest release: v1.4.15
+Latest release: v1.4.17
 
 Downloader APK link:
 `https://dvinesky.github.io/DVUSIPTV-Releases/DVUSIPTV.apk`
+
+v1.4.17 notes:
+- Fixed stale EPG schedules & automatic XMLTV expiration refresh: accurately detects when channel schedules expire or have fewer than 4 hours remaining, automatically refreshing in the background.
+- Removed invalid "Upcoming" fallback: channels whose previous broadcasts have ended no longer erroneously show yesterday's programs labeled as upcoming; displays accurate current program spans or "No Guide Info".
+- Real-time EPG updates: Guide and Live TV now automatically refresh active channel rows in real-time when fresh EPG data finishes syncing.
+- Fixed Guide category loading: optimized channel batching and cached guide lookups to ensure instant rendering across all categories without blocking.
+- Timezone & timestamp accuracy: unified UTC and epoch second/millisecond parsing across all EPG sources for precise on-air times.
+
+v1.4.16 notes:
+- Fixed missing channel rows: full 9,470 live streams seeded to SQLite catalog, ensuring all channels across USA Entertainment, USA Movies Channels, and all categories display in Guide and Live TV.
+- Resolved stale XMLTV EPG caching: channels like AMC+, AMC, Cinemax, Cinevault now reliably load and render full multi-program schedules from SQLite without showing 'No Guide Info'.
+- Eliminates main-thread freeze: optimized channel filtering, eliminated redundant regex passes, and introduced Schwartzian transforms for instantaneous sorting on Android TV hardware.
+- Live TV & Guide footer preview: displays currently airing program title, air times, and descriptions directly when focused on the channel tile.
 
 v1.4.15 notes:
 - SQLite-backed EPG & Stream caching: instantaneous channel guide lookups using batched Room queries (`xmltvDao.getProgramsForChannels`) for zero-lag display.
